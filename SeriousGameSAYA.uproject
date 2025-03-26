@@ -5,10 +5,16 @@
 	"Description": "",
 	"Plugins": [
 		{
-			"Name": "ModelingToolsEditorMode",
+			"Name": "FMODStudio",
+			"Enabled": false
+		},
+		{
+			"Name": "OpenXR",
 			"Enabled": true,
-			"TargetAllowList": [
-				"Editor"
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Linux",
+				"Android"
 			]
 		}
 	]
